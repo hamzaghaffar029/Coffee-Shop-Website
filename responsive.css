@@ -1,0 +1,267 @@
+@media screen and (max-width: 1245px) {
+  /* Navigation */
+
+  #nav-bar {
+    flex-direction: column;
+    height: 144px !important;
+  }
+  .logo {
+    position: absolute;
+    left: auto !important;
+    right: auto !important;
+  }
+  .manu {
+    position: absolute;
+    top: 90px;
+    left: auto !important;
+    right: auto !important;
+  }
+
+  /* About us */
+
+  /* Gallery */
+  .gallery-container {
+    height: fit-content !important;
+  }
+  .box-container {
+    margin: 0px 0px !important;
+    height: fit-content !important;
+  }
+  .gallery-container button {
+    margin: 13px auto !important;
+  }
+  /* Services */
+  #Services {
+    height: 1144px !important;
+  }
+  .services-box-container {
+    flex-direction: column;
+    padding: 0px 0px !important;
+    height: fit-content !important;
+  }
+  /* contact */
+}
+@media screen and (max-width: 992px) {
+  .about-container {
+    flex-direction: column;
+    height: 830px !important;
+  }
+  .about-img {
+    position: absolute;
+    top: 990px;
+    left: auto !important;
+    right: auto !important;
+    height: 400px !important;
+    width: 250px !important;
+  }
+}
+
+@media screen and (max-width: 678px) {
+  .manu {
+    font-size: 17px !important;
+  }
+
+  h1 {
+    font-size: 50px !important;
+  }
+  p {
+    font-size: 12px;
+  }
+  .home-text {
+    width: 390px;
+  }
+
+  .box img {
+    height: 300px !important;
+    width: 250px !important;
+  }
+  .box {
+    height: 300px !important;
+    width: 250px !important;
+  }
+  .contactUs-container::before {
+    height: 85% !important;
+  }
+}
+@media screen and (max-width: 571px) {
+  .manu {
+    font-size: 15px !important;
+  }
+  .items {
+    padding: 0px 10px !important;
+  }
+  h1 {
+    font-size: 35px !important;
+  }
+  p {
+    font-size: 10px;
+  }
+  .home-text {
+    width: 270px !important;
+  }
+  .about-text {
+    width: 240px !important;
+  }
+  .btn {
+    height: 40px !important;
+    width: 130px !important;
+  }
+  .box img {
+    height: 200px !important;
+    width: 150px !important;
+  }
+  .box {
+    height: 200px !important;
+    width: 150px !important;
+  }
+  .about-img {
+    height: 300px !important;
+    width: 200px !important;
+  }
+  .services-box {
+    height: 221px !important;
+    width: 313px !important;
+  }
+  .services-box::before {
+    height: 221px !important;
+    width: 313px !important;
+  }
+  form {
+    width: 334px !important;
+    height: 473px !important;
+  }
+  .contactUs-container::before {
+    height: 91% !important;
+  }
+}
+@media screen and (max-width: 414px) {
+  .manu {
+    font-size: 12px !important;
+  }
+  .items {
+    padding: 0px 5px !important;
+  }
+  h1 {
+    font-size: 35px !important;
+  }
+  p {
+    font-size: 8px;
+  }
+  .home-text {
+    width: 270px !important;
+  }
+  .about-text {
+    width: 240px !important;
+  }
+  .btn {
+    height: 40px !important;
+    width: 130px !important;
+  }
+  .box img {
+    height: 200px !important;
+    width: 150px !important;
+  }
+  .box {
+    height: 200px !important;
+    width: 150px !important;
+  }
+  .about-img {
+    height: 300px !important;
+    width: 200px !important;
+  }
+  .services-box {
+    height: 180px !important;
+    width: 250px !important;
+  }
+  .services-box::before {
+    height: 180px !important;
+    width: 250px !important;
+  }
+  .services-box .btn {
+    top: 6px !important;
+    height: 36px !important;
+    width: 121px !important;
+  }
+  form {
+    width: 334px !important;
+    height: 473px !important;
+  }
+  #Services {
+    height: 672px !important;
+  }
+  .Ser-box-heading {
+    font-size: 23px !important;
+  }
+  footer {
+    font-size: 13px;
+  }
+  .contactUs-container::before {
+    height: 70% !important;
+  }
+  .contactUs-container {
+    height: 495px !important;
+  }
+}
+@media screen and (min-width: 330px) and (max-width: 450px) {
+  .services-box {
+    height: 150px !important;
+    width: 200px !important;
+  }
+  .services-box::before {
+    height: 150px !important;
+    width: 200px !important;
+  }
+  .Ser-box-heading {
+    font-size: 17px !important;
+  }
+  p {
+    font-size: 6px;
+  }
+  .services-box .btn {
+    top: 3px !important;
+    height: 32px !important;
+    width: 115px !important;
+  }
+  #Services {
+    height: 672px !important;
+  }
+  .contactUs-container::before {
+    height: 495px !important;
+  }
+  .contactUs-container {
+    height: 489px !important;
+  }
+}
+@media screen and (max-width: 329px) {
+  .services-box::before {
+    width: 185px !important;
+  }
+  .services-box {
+    width: 185px !important;
+    margin: 12px 0px !important;
+  }
+  form {
+    width: 230px !important;
+  }
+  .contactUs-container::before {
+    height: 84% !important;
+  }
+  footer {
+    font-size: 10px;
+  }
+  .home-text {
+    width: 204px !important;
+    align-items: center;
+  }
+  .home-container {
+    justify-content: center;
+  }
+  .home-text {
+    margin-left: 0px !important;
+  }
+}
+@media screen and (max-height: 481px){
+  .contactUs-container::before {
+    height: 113% !important;
+  }
+}
